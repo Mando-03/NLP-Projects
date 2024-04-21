@@ -1,6 +1,4 @@
-Certainly! Below is the README.md content with all responses formatted in code blocks for display on GitHub:
 
-```markdown
 # Recipe Recommendation System
 
 This project implements a recipe recommendation system based on user-provided ingredients. The system utilizes cosine similarity and TF-IDF (Term Frequency-Inverse Document Frequency) to suggest recipes similar to the user's input.
