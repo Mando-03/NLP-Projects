@@ -64,7 +64,7 @@ The recipe recommendation system allows users to input a list of ingredients, an
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
+
 
 Replace the placeholders (`your-username`, `http://localhost:8000`, `link-to-dataset`, `link-to-notebook`, etc.) with the appropriate URLs, paths, and information relevant to your project.
 
