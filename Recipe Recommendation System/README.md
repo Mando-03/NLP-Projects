@@ -57,8 +57,7 @@ The recipe recommendation system allows users to input a list of ingredients, an
 
 ## Resources
 
-- Dataset: [food_Dataset.csv](link-to-dataset)
-- Example Notebook: [Recipe Recommendation Notebook](link-to-notebook)
+- Dataset: (https://www.kaggle.com/datasets/zeeenb/recipes-from-tasty)
 
 ## License
 
