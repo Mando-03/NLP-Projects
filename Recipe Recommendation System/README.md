@@ -28,7 +28,7 @@ The recipe recommendation system allows users to input a list of ingredients, an
 
 3. Run the FastAPI server:
    ```bash
-   uvicorn api:app --reload
+   uvicorn app:app --reload
    ```
 
 ## Usage
