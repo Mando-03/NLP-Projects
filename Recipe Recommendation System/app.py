@@ -40,6 +40,7 @@ def recommend_recipes(ingredients_input: IngredientsInput):
             image = Image.open(BytesIO(response.content))
 
             recipe_data = {
+                "recipe_image": recipe['thumbnail_url'],
                 "recipe_name": recipe['name'],
                 "ingredients": recipe['cleaned_ingredients'],
                 "protein": recipe['protein'],
@@ -48,7 +49,8 @@ def recommend_recipes(ingredients_input: IngredientsInput):
                 "sugar": recipe['sugar'],
                 "carbohydrates": recipe['carbohydrates'],
                 "fiber": recipe['fiber'],
-                "instructions": recipe['cleaned_instructions']
+                "instructions": recipe['cleaned_instructions'],
+                "recipe_video": recipe['video_url']                
             }
 
             response_data.append(recipe_data)
