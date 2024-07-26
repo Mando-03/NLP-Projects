@@ -22,7 +22,7 @@ def recommend_product(product_count, cluster_number, current_basket):
     recommendations = []
 
     # Load models
-    cluster_item_models = [Word2Vec.load(f"model_cluster_{id}.model") for id in range(0, 13)]
+    cluster_item_models = [Word2Vec.load(f"model_cluster_{id}.model") for id in range(0, 5)]
     model = cluster_item_models[cluster_number - 1]
 
     # Load Product name lookup from disk

@@ -21,7 +21,7 @@ def recommend_product(cluster_number, current_basket):
     recommendations = []
 
     # Load models
-    cluster_item_models = [Word2Vec.load(f"model_cluster_{id}.model") for id in range(0, 13)]
+    cluster_item_models = [Word2Vec.load(f"model_cluster_{id}.model") for id in range(0, 5)]
     model = cluster_item_models[cluster_number - 1]
 
     # Load Product name lookup from disk
@@ -96,7 +96,7 @@ def main():
         'Enter Current Basket (comma-separated):')
 
     cluster_number = st.number_input(
-        'Enter Cluster Number:', min_value=0, max_value=12, step=1, value=4)
+        'Enter Cluster Number:', min_value=1, max_value=5, step=1, value=4)
 
     if st.button('Get Recommendations'):
         if last_purchase_history:
