@@ -1,5 +1,7 @@
 
 # Recipe Recommendation System
+![recipe Treemap](https://miro.medium.com/v2/da:true/resize:fit:1200/0*wsWIB7I_n0XYMGca)
+
 
 This project implements a recipe recommendation system content based on user-provided ingredients. The system utilizes cosine similarity and TF-IDF (Term Frequency-Inverse Document Frequency) to suggest recipes similar to the user's input.
 
