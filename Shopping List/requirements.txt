@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+numpy
+pandas
+gensim
+scikit-learn
+pydantic
+itertools
+difflib
+pickle
