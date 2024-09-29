@@ -1,0 +1,20 @@
+in this project we will try to make a shopping list where we can take all user products he saved , find relations between these items , so the next time we will recommend similar products he used to buy with the items he has already entered
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -17,9 +17,8 @@ class IngredientsInput(BaseModel):
 @app.post("/recommend_recipes")
 def recommend_recipes(ingredients_input: IngredientsInput):
 
-    df = pd.read_csv('food_Dataset.csv')
-    df['cleaned_ingredients'] = df['cleaned_ingredients'].apply(
-        lambda x: [ingredient.strip()for ingredient in x.strip('[]').split(',')])
+    df = pd.read_csv('Data/Food_Dataset.csv')
+    df['cleaned_ingredients'] = df['cleaned_ingredients'].apply(lambda x: [ingredient.strip()for ingredient in x.strip('[]').split(',')])
 
     vectorizer = TfidfVectorizer()
     tfidf_vectorizer = vectorizer.fit_transform(df['cleaned_ingredients'].apply(lambda x: ', '.join(x)))

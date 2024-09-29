@@ -7,10 +7,9 @@ import pandas as pd
 import streamlit as st
 
 
-df = pd.read_csv('cleaned_food.csv')
+df = pd.read_csv('Data/cleaned_food.csv')
 
-df['cleaned_ingredients'] = df['cleaned_ingredients'].apply(
-    lambda x: x.replace('[', '').replace(']', '').replace("'", '').split(', '))
+df['cleaned_ingredients'] = df['cleaned_ingredients'].apply(lambda x: x.replace('[', '').replace(']', '').replace("'", '').split(', '))
 
 vectorizer = TfidfVectorizer()
 tfid_vectorizer = vectorizer.fit_transform(df['cleaned_ingredients'].apply(lambda x: ', '.join(x)))
@@ -22,8 +21,7 @@ user_input = st.text_input('Enter the ingredients separated by commas:')
 if st.button('Recommend'):
     user_input = user_input.lower().split(', ')
     user_input_vector = vectorizer.transform([', '.join(user_input)])
-    cosine_similarities = cosine_similarity(
-        tfid_vectorizer, user_input_vector).flatten()
+    cosine_similarities = cosine_similarity(tfid_vectorizer, user_input_vector).flatten()
 
     top_5_indices = cosine_similarities.argsort()[-5:][::-1]
     recommended_recipes = df.iloc[top_5_indices]

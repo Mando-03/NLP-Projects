@@ -1,7 +1,0 @@
-fastapi
-uvicorn
-gensim
-numpy
-pandas
-scikit-learn
-pydantic

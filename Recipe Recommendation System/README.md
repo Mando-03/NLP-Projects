@@ -57,7 +57,7 @@ The recipe recommendation system allows users to input a list of ingredients, an
 
 ## Resources
 
-- Dataset: (https://www.kaggle.com/datasets/zeeenb/recipes-from-tasty)
+Dataset: [Recipes from Tasty on Kaggle](https://www.kaggle.com/datasets/zeeenb/recipes-from-tasty)
 
 ## License
 
