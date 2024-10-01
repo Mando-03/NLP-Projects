@@ -1,7 +1,6 @@
-Here’s the complete `README.md` file for your **Smart Shopping List Collaborative Recommendation System** project, incorporating all the necessary details:
-
-```markdown
 # Smart Shopping List Collaborative Recommendation System
+![image](images/mb.jpeg)
+Credits: [Grocey Doppio](https://www.grocerydoppio.com/articles/the-transformative-power-of-ai-in-personalizing-the-grocery-shopping-experience)
 
 ## 🚀 Project Overview
 
