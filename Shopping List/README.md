@@ -1,7 +1,10 @@
 # Smart Shopping List Collaborative Recommendation System
 
-![image](images/mb.jpeg)  
-Credits: [Grocery Doppio](https://www.grocerydoppio.com/articles/the-transformative-power-of-ai-in-personalizing-the-grocery-shopping-experience)
+![Instacart Jobs](https://parade.com/.image/t_share/MTkwNTgxMjU3NTk4ODA1MTE3/instacart-jobs.png)
+
+## 🚀 Project Overview
+
+The **Smart Shopping List Collaborative Recommendation System** is a machine learning project designed to suggest personalized shopping items based on users' past purchases and similarities with other users. This project uses advanced techniques such as collaborative filtering, Item2Vec, and clustering to provide users with tailored product recommendations.
 
 ## 🚀 Project Overview
 
