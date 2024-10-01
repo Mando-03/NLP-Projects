@@ -1,6 +1,7 @@
 # Smart Shopping List Collaborative Recommendation System
+
 ![image](images/mb.jpeg)
-Credits: [Grocey Doppio](https://www.grocerydoppio.com/articles/the-transformative-power-of-ai-in-personalizing-the-grocery-shopping-experience)
+Credits: [Grocey Doppio]([https://www.grocerydoppio.com/articles/the-transformative-power-of-ai-in-personalizing-the-grocery-shopping-experience](https://parade.com/.image/t_share/MTkwNTgxMjU3NTk4ODA1MTE3/instacart-jobs.png))
 
 ## 🚀 Project Overview
 
