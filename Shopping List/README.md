@@ -3,9 +3,10 @@
 ![Instacart Jobs](https://parade.com/.image/t_share/MTkwNTgxMjU3NTk4ODA1MTE3/instacart-jobs.png)
 
 
-![demo_image_of_app](https://drive.google.com/uc?export=view&id=1cz5Vtxa5j3g-MqqcKRE3ToSW4ceo_5Nc)
 
 ## 🚀 Project Overview
+
+![demo_image_of_app](https://drive.google.com/uc?export=view&id=1cz5Vtxa5j3g-MqqcKRE3ToSW4ceo_5Nc)
 
 The **Smart Shopping List Collaborative Recommendation System** is a machine learning project designed to suggest personalized shopping items based on users' past purchases and similarities with other users. This project uses advanced techniques such as collaborative filtering, Item2Vec, and clustering to provide users with tailored product recommendations.
 
