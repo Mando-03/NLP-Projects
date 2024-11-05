@@ -7,6 +7,12 @@ This project implements a recipe recommendation system content based on user-pro
 
 ## Overview
 
+<div align="center">
+    <a href="https://drive.google.com/uc?export=view&id=1Jw2-b5mPO_qqbWRwtUmvcg-2CZuXaOsv" target="_blank">
+        <img src="https://via.placeholder.com/600x340.png?text=Click+to+watch+video" alt="Video Thumbnail" width="600"/>
+    </a>
+</div>
+
 The recipe recommendation system allows users to input a list of ingredients, and it recommends recipes from a dataset that match or are similar to the provided ingredients. The recommendations include details such as recipe names, ingredients, nutritional information, images and videos.
 
 ## Features
