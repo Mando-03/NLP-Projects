@@ -6,7 +6,11 @@
 
 ## 🚀 Project Overview
 
-![demo_image_of_app](https://drive.google.com/uc?export=view&id=1cz5Vtxa5j3g-MqqcKRE3ToSW4ceo_5Nc)
+
+<div align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1cz5Vtxa5j3g-MqqcKRE3ToSW4ceo_5Nc" alt="Demo of App" width="600"/>
+</div>
+
 
 The **Smart Shopping List Collaborative Recommendation System** is a machine learning project designed to suggest personalized shopping items based on users' past purchases and similarities with other users. This project uses advanced techniques such as collaborative filtering, Item2Vec, and clustering to provide users with tailored product recommendations.
 
