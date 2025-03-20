@@ -1,0 +1,1 @@
+from .CourseProposal import get_course_proposal_prompt
