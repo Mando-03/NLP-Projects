@@ -9,7 +9,6 @@ This project implements a recipe recommendation system content based on user-pro
 
 <div align="center">
     <a href="https://drive.google.com/uc?export=view&id=1Jw2-b5mPO_qqbWRwtUmvcg-2CZuXaOsv" target="_blank">
-        <img src="https://via.placeholder.com/600x340.png?text=Click+to+watch+video" alt="Video Thumbnail" width="600"/>
     </a>
 </div>
 
