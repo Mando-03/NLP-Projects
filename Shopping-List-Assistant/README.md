@@ -9,10 +9,10 @@
 
 The **Smart Hybrid Shopping List Recommendation System** is a machine learning project designed to suggest personalized shopping items based on users' past purchases and similarities with other users who purchase similarly. This project uses advanced techniques such as **User-Based Collaborative Filtering**, **Clustering-Based Filtering using KNN**, **K-Means**, and **dimensionality reduction (PCA)** to provide users with tailored product recommendations.
 
-<div align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1cz5Vtxa5j3g-MqqcKRE3ToSW4ceo_5Nc" alt="Demo of App" width="600"/>
-</div>
 
+<div align="center">
+  <img src="https://imgur.com/EgmCH6e.jpg" alt="Description" width="500">
+</div>
 ---
 
 ## 🌟 Key Features
