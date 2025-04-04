@@ -13,6 +13,7 @@ The **Smart Hybrid Shopping List Recommendation System** is a machine learning p
 <div align="center">
   <img src="https://imgur.com/EgmCH6e.jpg" alt="Description" width="500">
 </div>
+
 ---
 
 ## 🌟 Key Features
