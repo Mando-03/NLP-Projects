@@ -1,3 +1,0 @@
-*.model filter=lfs diff=lfs merge=lfs -text
-Shopping[[:space:]]List/Savings/dummy_k18.parquet filter=lfs diff=lfs merge=lfs -text
-Shopping[[:space:]]List/Savings/dummy_k18_parq.zip filter=lfs diff=lfs merge=lfs -text
